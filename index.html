@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="./index.css"/>
+</head>
+<body>
+    <div class="main-container">
+        <h1 class="heading">TODO LIST</h1>
+        <h3>ADD ITEM</h3>
+        <hr/>
+        <div class="todo-add-container">
+            <input id="todoUserInput" class="task" type="text" placeholder="What needs to be done?"/>
+            <button  id="addTodoButton" class="add-button">ADD</button>
+        </div>
+        <h3>TODO</h3>
+        <hr/>
+            <ul id="todoItemsContainer" class="task-list">
+                
+            </ul>        
+        <h3>COMPLETED</h3>
+        <hr/>
+        <ul id="completedTodosContainer" class="task-list">
+                
+        </ul> 
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
